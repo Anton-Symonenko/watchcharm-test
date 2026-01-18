@@ -39,7 +39,7 @@
         list-style: none;
     }
 
-/* HEADER SECTION  */
+ /* #region header*/
     .header-logo {
         font-weight: 500;
         font-size: 20px;
@@ -76,8 +76,9 @@
     .header-social-link {
 
         }
+/* #endregion header*/
 
-/* HERO SECTION  */
+/* #region hero*/
 
     .hero {}
         
@@ -117,3 +118,4 @@
         .hero-link:focus {
             color: #3350e9;
         }
+/* #endregion hero*/
