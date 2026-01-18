@@ -40,7 +40,10 @@
     }
 
         .header-logo {
-
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
         }
     
         .header-nav {
@@ -52,11 +55,13 @@
         }
     
         .header-nav-item {
-            
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28;
         }
     
         .header-nav-link {
-
+        color: #0c0c0c;
         }
 
         .header-social-list {
