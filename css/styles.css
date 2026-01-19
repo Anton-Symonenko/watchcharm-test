@@ -119,3 +119,40 @@
             color: #3350e9;
         }
 /* #endregion hero*/
+
+/* #region about us*/
+.main-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.main-list {}
+
+.main-item {}
+
+.main-discription {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.main-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+    background: #3350e9;
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    font-family: "Gilroy", sans-serif;
+}
+/* #endregion about us*/
