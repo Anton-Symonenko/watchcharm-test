@@ -156,3 +156,50 @@
     font-family: "Gilroy", sans-serif;
 }
 /* #endregion about us*/
+
+
+/* #region catalog */
+.main-catalog {
+    background: #fbfbfb;
+}
+
+.title-catalog {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    font-family: "Gilroy", sans-serif;
+}
+
+.main-catalog-list {
+
+}
+
+.main-catalog-item {}
+
+.catalog-name-watch {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c
+}
+
+.catalog-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+/* #endregion catalog */
+
+
+/* #region sale */
+
+
+/* #engregion sale */
+
