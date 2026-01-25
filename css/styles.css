@@ -37,9 +37,43 @@
     }
     ul, ol {
         list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+.section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+    .container {
+        width: 1180px ;
+        padding: 0 15px;
+        margin: 0 auto;
     }
 
  /* #region header*/
+.header {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
     .header-logo {
         font-weight: 500;
         font-size: 20px;
@@ -52,6 +86,8 @@
         }
     
     .header-nav-list {
+        display: flex;
+        gap: 40px;
 
         }
     
@@ -63,9 +99,13 @@
     
     .header-nav-link {
         color: #0c0c0c;
+        display: block;
+        padding: 30px 0;
         }
 
     .header-social-list {
+        display: flex;
+        gap: 10px;
 
         }
     
@@ -80,7 +120,25 @@
 
 /* #region hero*/
 
-    .hero {}
+    .hero {
+     padding-top: 80px;
+     padding-bottom: 50px;
+    }
+
+    .hero-container {
+
+
+    }
+.hero-wraper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+        .title-container-hero {
+
+        }
         
     .hero-title {
         font-weight: 600;
@@ -88,9 +146,21 @@
         line-height: 0.875;
         letter-spacing: -0.02em;
         color: #0c0c0c;
+        max-width: 597px;
+        margin-bottom: 20px;
     
         }
+
+   
         
+.discription-hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+
+}
+
     .hero-title-part {
             color: #3350e9;
     }
@@ -102,6 +172,7 @@
         line-height: 1.25;
         letter-spacing: -0.02em;
         color: rgba(12, 12, 12, 0.7);
+        max-width: 480px;
            
         }
         
@@ -160,7 +231,8 @@
 
 /* #region catalog */
 .main-catalog {
-    background: #fbfbfb;
+
+
 }
 
 .title-catalog {
@@ -169,29 +241,43 @@
     line-height: 0.92;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    font-family: "Gilroy", sans-serif;
+    margin-bottom: 40px;
 }
 
 .main-catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 23px;
 
 }
 
-.main-catalog-item {}
+.main-catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    width: calc((100% - 2 * 23px )/ 3 );
+    padding: 24px 32px;
+
+}
 
 .catalog-name-watch {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: #0c0c0c
+    color: #0c0c0c;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden ;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
 }
 
 .catalog-price {
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
 }

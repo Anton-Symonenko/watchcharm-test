@@ -5,93 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WatchCharm</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- #region header-->
-    <header>
-      <a href="./index.html" class="header-logo">watchcharm</a>
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html">Home</a>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo">watchcharm</a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">About US</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Catalog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Sale</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Reviews</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./imeges/facebook.svg"
+                alt="facebook"
+                width="36"
+                height="36"
+            /></a>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">About US</a>
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./imeges/instagram.svg"
+                alt="instagram"
+                width="36"
+                height="36"
+            /></a>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Catalog</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Sale</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Reviews</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Contact Us</a>
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./imeges/youtube.svg"
+                alt="youtube"
+                width="36"
+                height="36"
+            /></a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="header-social-list">
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./imeges/facebook.svg"
-              alt="facebook"
-              width="36"
-              height="36"
-          /></a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./imeges/instagram.svg"
-              alt="instagram"
-              width="36"
-              height="36"
-          /></a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./imeges/youtube.svg"
-              alt="youtube"
-              width="36"
-              height="36"
-          /></a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- #endregion header-->
 
     <main>
       <!-- #region hero -->
       <section class="hero">
-        <h1 class="hero-title">
-          Welcome to our <sap class="hero-title-part">collection</sap> of
-          premium watches
-        </h1>
-        <p class="hero-description">
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-
-        <img
-          src="./imeges/hero-image.png"
-          alt="hero-image"
-          width="146"
-          height="60"
-        />
-        <a href="" class="hero-link">Scroll down</a>
-
-        <img
-          src="./imeges/hero-watch.png"
-          alt="hero-watch"
-          width="1150"
-          height="500"
-        />
+        <div class="container hero-container">
+          <div class="hero-wraper">
+            <div class="title-container-hero">
+              <h1 class="hero-title">
+                Welcome to our <sap class="hero-title-part">collection</sap> of
+                premium watches
+              </h1>
+              <p class="hero-description">
+                Our watches are not just timepieces, but also an expression of your
+                personality and lifestyle. From classic designs to modern ones, we
+                have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="discription-hero-container">
+              <img
+                src="./imeges/hero-image.png"
+                alt="hero-image"
+                width="146"
+                height="60"
+              />
+              <a href="#" class="hero-link">Scroll down</a>
+            </div>
+          </div>
+          <img
+            src="./imeges/hero-watch.png"
+            alt="hero-watch"
+            width="1150"
+            height="500"
+          />
+        </div>
       </section>
       <!-- #endregion hero -->
 
@@ -130,60 +138,61 @@
       <!-- #endregion about us-->
 
       <!--#region Catalog-->
-      <section class="main-catalog">
-        <h2 class="title-catalog">Catalog</h2>
-        <ul class="main-catalog-list">
-          <li class="main-catalog-item">
-            <img
-              src="./imeges/garmin-fenix.png"
-              alt="Garmin Fenix 7X Pro Sapphire Solar"
-            />
-            <h3 class="catalog-name-watch">Garmin Fenix 7X Pro Sapphire Solar</h3>
-            <p class="catalog-price">€500</p>
-          </li>
-          <li class="main-catalog-item">
-            <img src="./imeges/garmin-marq.png" alt="Garmin Marq Athlete"
-            width: 292px;
-            height: 292px; />
-            <h3 class="catalog-name-watch">Garmin Marq Athlete</h3>
-            <p class="catalog-price">€450</p>
-          </li>
-          <li class="main-catalog-item">
-            <img src="./imeges/garmin-descent.png" alt="Garmin Descent MK1"
-            width: 292px;
-            height: 292px; />
-            <h3 class="catalog-name-watch">Garmin Descent MK1</h3>
-            <p class="catalog-price">€680</p>
-          </li>
-          <li class="main-catalog-item">
-            <img src="./imeges/garmin-d2-1.png" alt="Garmin D2 Delta PX"
-            width: 292px;
-            height: 292px; />
-            <h3 class="catalog-name-watch">Garmin D2 Delta PX</h3>
-            <p class="catalog-price">€380</p>
-          </li>
-          <li class="main-catalog-item">
-            <img
-              src="./imeges/garmin-fenix.png"
-              alt="Garmin Fenix 6 Pro Solar"
+      <section class="section main-catalog">
+        <div class="container">
+          <h2 class="title-catalog">Catalog</h2>
+          <ul class="main-catalog-list">
+            <li class="main-catalog-item">
+              <img
+                src="./imeges/garmin-fenix.png"
+                alt="Garmin Fenix 7X Pro Sapphire Solar"
+              />
+              <h3 class="catalog-name-watch">Garmin Fenix 7X Pro Sapphire Solar</h3>
+              <p class="catalog-price">€500</p>
+            </li>
+            <li class="main-catalog-item">
+              <img src="./imeges/garmin-marq.png" alt="Garmin Marq Athlete"
+              width="292;
+              height: 292; />
+              <h3 class="catalog-name-watch">Garmin Marq Athlete</h3>
+              <p class="catalog-price">€450</p>
+            </li>
+            <li class="main-catalog-item">
+              <img src="./imeges/garmin-descent.png" alt="Garmin Descent MK1"
               width: 292px;
-              height: 292px;
-            />
-            <h3 class="catalog-name-watch">Garmin Fenix 6 Pro Solar</h3>
-            <p class="catalog-price">€400</p>
-          </li>
-          <li class="main-catalog-item">
-            <img
-              src="./imeges/tube-watch.png"
-              alt="Tube Watch S42 Date Steel With Black Case"
+              height: 292px; />
+              <h3 class="catalog-name-watch">Garmin Descent MK1</h3>
+              <p class="catalog-price">€680</p>
+            </li>
+            <li class="main-catalog-item">
+              <img src="./imeges/garmin-d2-1.png" alt="Garmin D2 Delta PX"
               width: 292px;
-
-              eight: 292px;
-            />
-            <h3 class="catalog-name-watch">Tube Watch S42 Date Steel With Black Case</h3>
-            <p class="catalog-price">€395</p>
-          </li>
-        </ul>
+              height: 292px; />
+              <h3 class="catalog-name-watch">Garmin D2 Delta PX</h3>
+              <p class="catalog-price">€380</p>
+            </li>
+            <li class="main-catalog-item">
+              <img
+                src="./imeges/garmin-fenix.png"
+                alt="Garmin Fenix 6 Pro Solar"
+                width: 292px;
+                height: 292px;
+              />
+              <h3 class="catalog-name-watch">Garmin Fenix 6 Pro Solar</h3>
+              <p class="catalog-price">€400</p>
+            </li>
+            <li class="main-catalog-item">
+              <img
+                src="./imeges/tube-watch.png"
+                alt="Tube Watch S42 Date Steel With Black Case"
+                width: 292px;
+                eight: 292px;
+              />
+              <h3 class="catalog-name-watch">Tube Watch S42 Date Steel With Black Case</h3>
+              <p class="catalog-price">€395</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--#endregion Catalog-->
